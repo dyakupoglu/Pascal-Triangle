@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+}
+
+.block {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    width: 2em;
+}
+
+.divblock {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pascal {
+    margin: auto;
+    text-align: center;
+}
+
+.block:nth-child(odd) {
+    background-color:gold;
+}
+
+.block:nth-child(even) {
+    background-color:grey;
+}
